@@ -1,6 +1,9 @@
 **/_freeze
 **/posts
 **/_site
+**/.quarto
+.gitignore
+profile.jpg
 about.qmd
 index.qmd
 _quarto.yml
