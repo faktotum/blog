@@ -1,0 +1,11 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/post-with-code/index.html",
+      "/posts/2023-05-29-vim-zwei/vim02.html",
+      "/posts/2023-05-29-vim-eins/vim01.html",
+      "/posts/welcome/index.html"
+    ]
+  }
+]

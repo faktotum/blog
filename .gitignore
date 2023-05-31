@@ -1,0 +1,7 @@
+**/_freeze
+**/posts
+**/_site
+about.qmd
+index.qmd
+_quarto.yml
+styles.css
