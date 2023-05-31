@@ -1,5 +1,4 @@
-**/_freeze
-**/posts
+*/_freeze
 **/_site
 **/.quarto
 .gitignore

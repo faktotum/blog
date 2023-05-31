@@ -1,0 +1,25 @@
+---
+title: "Vim Tipp #1"
+description: "Post description"
+author: "faktotum"
+date: "5/29/2023"
+categories:
+  - code
+  - vim
+---
+
+Vim Plugins installieren mit:
+
+```
+mkdir -p ~/.vim/pack/plugins/start
+cd ~/.vim/pack/plugins/start
+git clone https://plugins.io/vim/foo.git
+```
+
+Helpfile erstellen mit:
+
+```
+vim -u NONE -c "helptags foo/doc" -c q
+```
+
+

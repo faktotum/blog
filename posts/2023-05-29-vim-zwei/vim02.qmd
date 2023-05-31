@@ -1,0 +1,28 @@
+---
+title: "Vim Tipp #2"
+description: "Vim Tipps
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts."
+author: "faktotum"
+date: "5/29/2023"
+categories: 
+  - vim
+  - code
+---
+
+![](image.jpg)
+
+Vim Plugins installieren mit:
+
+```
+mkdir -p ~/.vim/pack/plugins/start
+cd ~/.vim/pack/plugins/start
+git clone https://plugins.io/vim/foo.git
+```
+
+Helpfile erstellen mit:
+
+```
+vim -u NONE -c "helptags foo/doc" -c q
+```
+
+

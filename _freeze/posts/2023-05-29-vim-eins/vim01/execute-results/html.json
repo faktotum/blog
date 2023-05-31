@@ -1,0 +1,11 @@
+{
+  "hash": "bdf095239521dd8b4ea7e0c094aa0110",
+  "result": {
+    "markdown": "---\ntitle: \"Vim Tipp #1\"\ndescription: \"Post description\"\nauthor: \"Fizz McPhee\"\ndate: \"5/29/2023\"\ncategories:\n  - code\n---\n\nVim Plugins installieren mit:\n\n```\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/fugitive.git\n```\n\nHelpfile erstellen mit:\n\n\n```{bash}\nvim -u NONE -c \"helptags fugitive/doc\" -c q\n```\n\n",
+    "supporting": [
+      "vim01_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
