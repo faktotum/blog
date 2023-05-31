@@ -1,6 +1,7 @@
 **/_freeze
 **/_site
 **/.quarto
+**/posts
 .gitignore
 profile.jpg
 about.qmd
