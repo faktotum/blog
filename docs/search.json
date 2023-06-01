@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Mein Blog",
     "section": "",
-    "text": "Vim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVim Tipps Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nPost description\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Vim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVim Tipps Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nPost description\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -26,5 +26,12 @@
     "title": "Vim Tipp #1",
     "section": "",
     "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
+  },
+  {
+    "objectID": "posts/2023-06-01-vim-drei/vim03.html",
+    "href": "posts/2023-06-01-vim-drei/vim03.html",
+    "title": "Vim Tipp #3",
+    "section": "",
+    "text": "*\nsucht Wort unter dem Cursor."
   }
 ]
