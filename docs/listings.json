@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023-06-10-zitat-eins/zitat01.html",
       "/posts/2023-06-01-vim-drei/vim03.html",
       "/posts/2023-05-29-vim-zwei/vim02.html",
       "/posts/2023-05-29-vim-eins/vim01.html"
