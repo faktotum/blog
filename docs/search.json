@@ -18,7 +18,14 @@
     "href": "posts/2023-05-29-vim-zwei/vim02.html",
     "title": "Vim Tipp #2",
     "section": "",
-    "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
+    "text": "I am going to insert a footnote here1.\nVim Plugins installieren mit:\nHelpfile erstellen mit:"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-zwei/vim02.html#footnotes",
+    "href": "posts/2023-05-29-vim-zwei/vim02.html#footnotes",
+    "title": "Vim Tipp #2",
+    "section": "Fußnoten",
+    "text": "Fußnoten\n\n\nHere is the associated footnote, which will appear at the bottom of my document in a “Footnotes” section.↩︎"
   },
   {
     "objectID": "posts/2023-06-10-zitat-eins/zitat01.html",
