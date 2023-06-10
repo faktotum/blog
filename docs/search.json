@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Notizen & Aufzeichnungen",
     "section": "",
-    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVim Tipps Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,21 @@
     "href": "posts/2023-05-29-vim-zwei/vim02.html",
     "title": "Vim Tipp #2",
     "section": "",
-    "text": "I am going to insert a footnote here1.\nVim Plugins installieren mit:\nHelpfile erstellen mit:\nThis is text with special formatting."
+    "text": "I am going to insert a footnote here1.\nVim Plugins installieren mit:"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-zwei/vim02.html#table",
+    "href": "posts/2023-05-29-vim-zwei/vim02.html#table",
+    "title": "Vim Tipp #2",
+    "section": "Table",
+    "text": "Table\n\n\n\nRight\nLeft\nCenter\nDefault\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-zwei/vim02.html#liste",
+    "href": "posts/2023-05-29-vim-zwei/vim02.html#liste",
+    "title": "Vim Tipp #2",
+    "section": "Liste",
+    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSee the Tabelle.\n\nA paragraph with big text.\n\nThis is text with special formatting.\n\n\n\n\n\n\n\nG\n\n  \n\nrun\n\n run   \n\nintr\n\n intr   \n\nrun–intr\n\n   \n\nkernel\n\n kernel   \n\nrun–kernel\n\n   \n\nrunbl\n\n runbl   \n\nintr–runbl\n\n   \n\nrunbl–run\n\n   \n\nzombie\n\n zombie   \n\nkernel–zombie\n\n   \n\nsleep\n\n sleep   \n\nkernel–sleep\n\n   \n\nrunmem\n\n runmem   \n\nkernel–runmem\n\n   \n\nsleep–runmem\n\n   \n\nswap\n\n swap   \n\nsleep–swap\n\n   \n\nrunswap\n\n runswap   \n\nswap–runswap\n\n   \n\nrunswap–runmem\n\n   \n\nnew\n\n new   \n\nrunswap–new\n\n   \n\nnew–runmem"
   },
   {
     "objectID": "posts/2023-05-29-vim-zwei/vim02.html#footnotes",
@@ -32,7 +46,7 @@
     "href": "posts/2023-06-10-zitat-eins/zitat01.html",
     "title": "Zitat #1",
     "section": "",
-    "text": "»If Charlie Parker was a gunslinger, there’d be a whole lot of dead copycats.«"
+    "text": "»If Charlie Parker was a gunslinger, there’d be a whole lot of dead copycats.«\n- Charles Mingus"
   },
   {
     "objectID": "posts/2023-05-29-vim-eins/vim01.html",
