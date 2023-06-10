@@ -53,7 +53,7 @@
     "href": "posts/2023-05-29-vim-zwei/vim02.html#liste",
     "title": "Playground",
     "section": "Liste",
-    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\nThis is text with special formatting."
+    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\n\nA paragraph with big text.\n\nThis is text with special formatting."
   },
   {
     "objectID": "posts/2023-05-29-vim-zwei/vim02.html#graphviz",

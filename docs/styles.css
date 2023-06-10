@@ -2,5 +2,9 @@
 
 code {
     font-family: DejaVu Sans Mono, monospace;
+  }
+
+pre {
+    font-size: .7em;
     font-weight: normal;
   }
