@@ -18,7 +18,7 @@
     "href": "posts/2023-05-29-vim-zwei/vim02.html",
     "title": "Vim Tipp #2",
     "section": "",
-    "text": "I am going to insert a footnote here1.\nVim Plugins installieren mit:\nHelpfile erstellen mit:"
+    "text": "I am going to insert a footnote here1.\nVim Plugins installieren mit:\nHelpfile erstellen mit:\nThis is text with special formatting."
   },
   {
     "objectID": "posts/2023-05-29-vim-zwei/vim02.html#footnotes",
