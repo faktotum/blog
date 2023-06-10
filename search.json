@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notizen & Aufzeichnungen",
+    "section": "",
+    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVim Tipps Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Über diesen Blog"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-zwei/vim02.html",
+    "href": "posts/2023-05-29-vim-zwei/vim02.html",
+    "title": "Vim Tipp #2",
+    "section": "",
+    "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
+  },
+  {
+    "objectID": "posts/2023-06-10-zitat-eins/zitat01.html",
+    "href": "posts/2023-06-10-zitat-eins/zitat01.html",
+    "title": "Zitat #1",
+    "section": "",
+    "text": "»If Charlie Parker was a gunslinger, there’d be a whole lot of dead copycats.«"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-eins/vim01.html",
+    "href": "posts/2023-05-29-vim-eins/vim01.html",
+    "title": "Vim Tipp #1",
+    "section": "",
+    "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
+  },
+  {
+    "objectID": "posts/2023-06-01-vim-drei/vim03.html",
+    "href": "posts/2023-06-01-vim-drei/vim03.html",
+    "title": "Vim Tipp #3",
+    "section": "",
+    "text": "*\nsucht Wort unter dem Cursor."
+  }
+]
