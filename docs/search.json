@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Notizen & Aufzeichnungen",
     "section": "",
-    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nExternes Display unter Ubuntu nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\npandoc\n\n\nmarkdown\n\n\n\n\n\n\n\n\n\n\n\n01.05.2023\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\npandoc\n\n\nmarkdown\n\n\n\n\n\n\n\n\n\n\n\n01.05.2023\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -121,8 +121,8 @@
   {
     "objectID": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
     "href": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
-    "title": "Externes Display unter Ubuntu nutzen",
+    "title": "Tablet oder Phone als externes Display unter Ubuntu nutzen",
     "section": "",
-    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren."
+    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
   }
 ]
