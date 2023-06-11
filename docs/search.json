@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Notizen & Aufzeichnungen",
     "section": "",
-    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #2\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Zitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Über diesen Blog"
+    "text": "input &gt; output"
   },
   {
     "objectID": "posts/2023-06-10-zitat-eins/zitat01.html",
@@ -23,9 +23,9 @@
   {
     "objectID": "posts/2023-05-01-playground/playground.html",
     "href": "posts/2023-05-01-playground/playground.html",
-    "title": "Vim Tipp #2",
+    "title": "Playground",
     "section": "",
-    "text": "Elephant\nHere is an inline note.1\nI am going to insert a footnote here2.\nVim Plugins installieren mit:"
+    "text": "oskar-schlemmer abstrakte-figur"
   },
   {
     "objectID": "posts/2023-05-01-playground/playground.html#table",
@@ -37,14 +37,14 @@
   {
     "objectID": "posts/2023-05-01-playground/playground.html#liste",
     "href": "posts/2023-05-01-playground/playground.html#liste",
-    "title": "Vim Tipp #2",
+    "title": "Playground",
     "section": "Liste",
-    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSee the Tabelle.\n\nA paragraph with big text.\n\nThis is text with special formatting.\n\n\n\n\n\n\n\nG\n\n  \n\nrun\n\n run   \n\nintr\n\n intr   \n\nrun–intr\n\n   \n\nkernel\n\n kernel   \n\nrun–kernel\n\n   \n\nrunbl\n\n runbl   \n\nintr–runbl\n\n   \n\nrunbl–run\n\n   \n\nzombie\n\n zombie   \n\nkernel–zombie\n\n   \n\nsleep\n\n sleep   \n\nkernel–sleep\n\n   \n\nrunmem\n\n runmem   \n\nkernel–runmem\n\n   \n\nsleep–runmem\n\n   \n\nswap\n\n swap   \n\nsleep–swap\n\n   \n\nrunswap\n\n runswap   \n\nswap–runswap\n\n   \n\nrunswap–runmem\n\n   \n\nnew\n\n new   \n\nrunswap–new\n\n   \n\nnew–runmem"
+    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\n\nA paragraph with big text.\n\nThis is text with special formatting."
   },
   {
     "objectID": "posts/2023-05-01-playground/playground.html#footnotes",
     "href": "posts/2023-05-01-playground/playground.html#footnotes",
-    "title": "Vim Tipp #2",
+    "title": "Playground",
     "section": "Fußnoten",
     "text": "Fußnoten\n\n\nInline notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎\nHere is the associated footnote, which will appear at the bottom of my document in a “Footnotes” section.↩︎"
   },
@@ -68,5 +68,40 @@
     "title": "Tablet oder Phone als externes Display unter Ubuntu nutzen",
     "section": "",
     "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#bilder",
+    "href": "posts/2023-05-01-playground/playground.html#bilder",
+    "title": "Playground",
+    "section": "",
+    "text": "oskar-schlemmer abstrakte-figur"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#fußnoten-und-inline-notes",
+    "href": "posts/2023-05-01-playground/playground.html#fußnoten-und-inline-notes",
+    "title": "Playground",
+    "section": "Fußnoten und Inline Notes",
+    "text": "Fußnoten und Inline Notes\nHere is an inline note.1\nI am going to insert a footnote here2."
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#code",
+    "href": "posts/2023-05-01-playground/playground.html#code",
+    "title": "Playground",
+    "section": "Code",
+    "text": "Code\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#tabellen",
+    "href": "posts/2023-05-01-playground/playground.html#tabellen",
+    "title": "Playground",
+    "section": "Tabellen",
+    "text": "Tabellen\n\n\n\nRight\nLeft\nCenter\nDefault\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#graphviz",
+    "href": "posts/2023-05-01-playground/playground.html#graphviz",
+    "title": "Playground",
+    "section": "Graphviz",
+    "text": "Graphviz\n\n\n\n\n\n\n\nG\n\n  \n\nrun\n\n run   \n\nintr\n\n intr   \n\nrun–intr\n\n   \n\nkernel\n\n kernel   \n\nrun–kernel\n\n   \n\nrunbl\n\n runbl   \n\nintr–runbl\n\n   \n\nrunbl–run\n\n   \n\nzombie\n\n zombie   \n\nkernel–zombie\n\n   \n\nsleep\n\n sleep   \n\nkernel–sleep\n\n   \n\nrunmem\n\n runmem   \n\nkernel–runmem\n\n   \n\nsleep–runmem\n\n   \n\nswap\n\n swap   \n\nsleep–swap\n\n   \n\nrunswap\n\n runswap   \n\nswap–runswap\n\n   \n\nrunswap–runmem\n\n   \n\nnew\n\n new   \n\nrunswap–new\n\n   \n\nnew–runmem"
   }
 ]
