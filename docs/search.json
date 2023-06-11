@@ -28,48 +28,6 @@
     "text": "oskar-schlemmer abstrakte-figur"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#table",
-    "href": "posts/2023-05-01-playground/playground.html#table",
-    "title": "Vim Tipp #2",
-    "section": "Table",
-    "text": "Table\n\n\n\nRight\nLeft\nCenter\nDefault\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
-  },
-  {
-    "objectID": "posts/2023-05-01-playground/playground.html#liste",
-    "href": "posts/2023-05-01-playground/playground.html#liste",
-    "title": "Playground",
-    "section": "Liste",
-    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\n\nA paragraph with big text.\n\nThis is text with special formatting."
-  },
-  {
-    "objectID": "posts/2023-05-01-playground/playground.html#footnotes",
-    "href": "posts/2023-05-01-playground/playground.html#footnotes",
-    "title": "Playground",
-    "section": "Fußnoten",
-    "text": "Fußnoten\n\n\nInline notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎\nHere is the associated footnote, which will appear at the bottom of my document in a “Footnotes” section.↩︎"
-  },
-  {
-    "objectID": "posts/2023-05-29-vim-eins/vim01.html",
-    "href": "posts/2023-05-29-vim-eins/vim01.html",
-    "title": "Vim Tipp #1",
-    "section": "",
-    "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
-  },
-  {
-    "objectID": "posts/2023-06-01-vim-drei/vim03.html",
-    "href": "posts/2023-06-01-vim-drei/vim03.html",
-    "title": "Vim Tipp #3",
-    "section": "",
-    "text": "*\nsucht Wort unter dem Cursor."
-  },
-  {
-    "objectID": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
-    "href": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
-    "title": "Tablet oder Phone als externes Display unter Ubuntu nutzen",
-    "section": "",
-    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
-  },
-  {
     "objectID": "posts/2023-05-01-playground/playground.html#bilder",
     "href": "posts/2023-05-01-playground/playground.html#bilder",
     "title": "Playground",
@@ -98,10 +56,59 @@
     "text": "Tabellen\n\n\n\nRight\nLeft\nCenter\nDefault\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
   },
   {
+    "objectID": "posts/2023-05-01-playground/playground.html#liste",
+    "href": "posts/2023-05-01-playground/playground.html#liste",
+    "title": "Playground",
+    "section": "Liste",
+    "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\n\nA paragraph with big text.\n\nThis is text with special formatting."
+  },
+  {
     "objectID": "posts/2023-05-01-playground/playground.html#graphviz",
     "href": "posts/2023-05-01-playground/playground.html#graphviz",
     "title": "Playground",
     "section": "Graphviz",
     "text": "Graphviz\n\n\n\n\n\n\n\nG\n\n  \n\nrun\n\n run   \n\nintr\n\n intr   \n\nrun–intr\n\n   \n\nkernel\n\n kernel   \n\nrun–kernel\n\n   \n\nrunbl\n\n runbl   \n\nintr–runbl\n\n   \n\nrunbl–run\n\n   \n\nzombie\n\n zombie   \n\nkernel–zombie\n\n   \n\nsleep\n\n sleep   \n\nkernel–sleep\n\n   \n\nrunmem\n\n runmem   \n\nkernel–runmem\n\n   \n\nsleep–runmem\n\n   \n\nswap\n\n swap   \n\nsleep–swap\n\n   \n\nrunswap\n\n runswap   \n\nswap–runswap\n\n   \n\nrunswap–runmem\n\n   \n\nnew\n\n new   \n\nrunswap–new\n\n   \n\nnew–runmem"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#margins",
+    "href": "posts/2023-05-01-playground/playground.html#margins",
+    "title": "Playground",
+    "section": "Margins",
+    "text": "Margins\n\n\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\\]"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#leaflet",
+    "href": "posts/2023-05-01-playground/playground.html#leaflet",
+    "title": "Playground",
+    "section": "Leaflet",
+    "text": "Leaflet\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#footnotes",
+    "href": "posts/2023-05-01-playground/playground.html#footnotes",
+    "title": "Playground",
+    "section": "Fußnoten",
+    "text": "Fußnoten\n\n\nInline notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎\nHere is the associated footnote, which will appear at the bottom of my document in a “Footnotes” section.↩︎"
+  },
+  {
+    "objectID": "posts/2023-05-29-vim-eins/vim01.html",
+    "href": "posts/2023-05-29-vim-eins/vim01.html",
+    "title": "Vim Tipp #1",
+    "section": "",
+    "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
+  },
+  {
+    "objectID": "posts/2023-06-01-vim-drei/vim03.html",
+    "href": "posts/2023-06-01-vim-drei/vim03.html",
+    "title": "Vim Tipp #3",
+    "section": "",
+    "text": "*\nsucht Wort unter dem Cursor."
+  },
+  {
+    "objectID": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
+    "href": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
+    "title": "Tablet oder Phone als externes Display unter Ubuntu nutzen",
+    "section": "",
+    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
   }
 ]
