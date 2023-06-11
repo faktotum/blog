@@ -81,7 +81,7 @@
     "href": "posts/2023-05-01-playground/playground.html#leaflet",
     "title": "Playground",
     "section": "Leaflet",
-    "text": "Leaflet\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=174.768, lat=-36.852, popup=\"The birthplace of R\")"
+    "text": "Leaflet\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=8.50047, lat=49.83570, popup=\"The birthplace of Georg Büchner\")\n\n\n\n\n\n49.83570221743721, 8.500473511097601"
   },
   {
     "objectID": "posts/2023-05-01-playground/playground.html#footnotes",
