@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "NOTIZEN",
     "section": "",
-    "text": "thttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\npython\n\n\nflask\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden\n\n\n\n\n\n\n\nffmpeg\n\n\nvideo\n\n\n\n\nVideodateien mit ffmpeg verbinden\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
+    "text": "ack - grep-like text finder\n\n\n\n\n\n\n\ncli\n\n\n\n\n\n\n\n\n\n\n\n14.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nthttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\npython\n\n\nflask\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden\n\n\n\n\n\n\n\nffmpeg\n\n\nvideo\n\n\n\n\nVideodateien mit ffmpeg verbinden\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -12,6 +12,20 @@
     "title": "About",
     "section": "",
     "text": "faktotum@zoho.com"
+  },
+  {
+    "objectID": "posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
+    "href": "posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
+    "title": "thttpd installieren und für CGI, Flask & Python Beispiele nutzen",
+    "section": "",
+    "text": "Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen.\nwget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz\ntar xvfz thttpd-2.29.tar.gz\ncd thttpdir-2.29\nmkdir www\n./configure\nmake\nDatei config mit folgender Zeile erstellen:\ncgipat=**.py\nthttpd mit ```./thttpd -p 8123 -C config -d www ´´´.\nLogs mit tail -f /var/log/syslog anzeigen lassen."
+  },
+  {
+    "objectID": "posts/2023-06-14-ack/ack.html",
+    "href": "posts/2023-06-14-ack/ack.html",
+    "title": "ack - grep-like text finder",
+    "section": "",
+    "text": "ack - grep-like text finder\n- Search for files containing a string or regular expression in the current directory recursively:\n    ack \"search_pattern\"\n\n- Search for a case-insensitive pattern:\n    ack --ignore-case \"search_pattern\"\n\n- Search for lines matching a pattern, printing [o]nly the matched text and not the rest of the line:\n    ack -o \"search_pattern\"\n\n- Limit search to files of a specific type:\n    ack --type=ruby \"search_pattern\"\n\n- Do not search in files of a specific type:\n    ack --type=noruby \"search_pattern\"\n\n- Count the total number of matches found:\n    ack --count --no-filename \"search_pattern\"\n\n- Print the file names and the number of matches for each file only:\n    ack --count --files-with-matches \"search_pattern\"\n\n- List all the values that can be used with `--type`:\n    ack --help-types\nQuelle"
   },
   {
     "objectID": "posts/2023-06-10-zitat-eins/zitat01.html",
@@ -117,12 +131,5 @@
     "title": "Tablet oder Phone als externes Display unter Ubuntu 22 nutzen",
     "section": "",
     "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
-  },
-  {
-    "objectID": "posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
-    "href": "posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
-    "title": "thttpd installieren und für CGI, Flask & Python Beispiele nutzen",
-    "section": "",
-    "text": "Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen.\nwget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz\ntar xvfz thttpd-2.29.tar.gz\ncd thttpdir-2.29\nmkdir www\n./configure\nmake\nDatei config mit folgender Zeile erstellen:\ncgipat=**.py\nthttpd mit ```./thttpd -p 8123 -C config -d www ´´´ starten.\nLogs mit tail -f /var/log/syslog anzeigen lassen."
   }
 ]

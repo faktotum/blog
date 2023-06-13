@@ -8,7 +8,7 @@
 
 <meta name="author" content="faktotum">
 
-<title>NOTIZEN - thttpd installieren und für CGI, Flask &amp; Python Beispiele nutzen</title>
+<title>NOTIZEN - ack - grep-like text finder</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,10 +108,9 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">thttpd installieren und für CGI, Flask &amp; Python Beispiele nutzen</h1>
+<h1 class="title">ack - grep-like text finder</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">python</div>
-    <div class="quarto-category">flask</div>
+    <div class="quarto-category">cli</div>
   </div>
   </div>
 
@@ -129,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">12. Juni 2023</p>
+      <p class="date">14. Juni 2023</p>
     </div>
   </div>
   
@@ -139,17 +138,31 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen.</p>
-<pre><code>wget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz
-tar xvfz thttpd-2.29.tar.gz
-cd thttpdir-2.29
-mkdir www
-./configure
-make</code></pre>
-<p>Datei config mit folgender Zeile erstellen:</p>
-<pre><code>cgipat=**.py</code></pre>
-<p>thttpd mit ```./thttpd -p 8123 -C config -d www ´´´.</p>
-<p>Logs mit tail -f /var/log/syslog anzeigen lassen.</p>
+<p>ack - grep-like text finder</p>
+<pre><code>- Search for files containing a string or regular expression in the current directory recursively:
+    ack "search_pattern"
+
+- Search for a case-insensitive pattern:
+    ack --ignore-case "search_pattern"
+
+- Search for lines matching a pattern, printing [o]nly the matched text and not the rest of the line:
+    ack -o "search_pattern"
+
+- Limit search to files of a specific type:
+    ack --type=ruby "search_pattern"
+
+- Do not search in files of a specific type:
+    ack --type=noruby "search_pattern"
+
+- Count the total number of matches found:
+    ack --count --no-filename "search_pattern"
+
+- Print the file names and the number of matches for each file only:
+    ack --count --files-with-matches "search_pattern"
+
+- List all the values that can be used with `--type`:
+    ack --help-types</code></pre>
+<p><a href="https://beyondgrep.com/documentation">Quelle</a></p>
 
 
 
