@@ -123,7 +123,7 @@
     "href": "posts/2023-06-01-vim-drei/vim03.html",
     "title": "Vim Tipp #3",
     "section": "",
-    "text": "*\nsucht Wort unter dem Cursor."
+    "text": "Asterisk * sucht Wort unter dem Cursor."
   },
   {
     "objectID": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
