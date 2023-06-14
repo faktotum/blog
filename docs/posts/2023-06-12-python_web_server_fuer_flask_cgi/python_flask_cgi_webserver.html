@@ -181,9 +181,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-5"><a href="#cb1-5"></a><span class="ex">./configure</span></span>
 <span id="cb1-6"><a href="#cb1-6"></a><span class="fu">make</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Datei config mit folgender Zeile erstellen:</p>
-<pre><code>cgipat=**.py</code></pre>
-<p>thttpd mit ```./thttpd -p 8123 -C config -d www ´´´.</p>
-<p>Logs mit tail -f /var/log/syslog anzeigen lassen.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="va">cgipat</span><span class="op">=</span><span class="pp">**</span>.py</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>thttpd starten mit</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="ex">./thttpd</span> <span class="at">-p</span> 8123 <span class="at">-C</span> config <span class="at">-d</span> www</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Logs anzeigen mit</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">tail</span> <span class="at">-f</span> /var/log/syslog anzeigen lassen.</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 

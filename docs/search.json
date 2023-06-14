@@ -18,7 +18,7 @@
     "href": "posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
     "title": "thttpd installieren und für CGI, Flask & Python Beispiele nutzen",
     "section": "",
-    "text": "Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen.\nwget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz\ntar xvfz thttpd-2.29.tar.gz\ncd thttpdir-2.29\nmkdir www\n./configure\nmake\nDatei config mit folgender Zeile erstellen:\ncgipat=**.py\nthttpd mit ```./thttpd -p 8123 -C config -d www ´´´.\nLogs mit tail -f /var/log/syslog anzeigen lassen."
+    "text": "Eine einfache Variante um schnell einen kleinen CGI-fähigen Server zum Testen aufzusetzen.\nwget https://www.acme.com/software/thttpd/thttpd-2.29.tar.gz\ntar xvfz thttpd-2.29.tar.gz\ncd thttpdir-2.29\nmkdir www\n./configure\nmake\nDatei config mit folgender Zeile erstellen:\ncgipat=**.py\nthttpd starten mit\n./thttpd -p 8123 -C config -d www\nLogs anzeigen mit\ntail -f /var/log/syslog anzeigen lassen."
   },
   {
     "objectID": "posts/2023-06-14-ack/ack.html",
