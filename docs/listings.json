@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/2023-06-17-vim-changes/index.html",
+      "/posts/2023-06-17-gvim-fonts/index.html",
       "/posts/2023-06-14-ack/ack.html",
       "/posts/2023-06-12-python_web_server_fuer_flask_cgi/python_flask_cgi_webserver.html",
       "/posts/2023-06-12-ffmpeg-Concat/ffmpeg0001.html",
