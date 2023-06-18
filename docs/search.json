@@ -119,13 +119,6 @@
     "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
   },
   {
-    "objectID": "posts/2023-06-01-vim-drei/vim03.html",
-    "href": "posts/2023-06-01-vim-drei/vim03.html",
-    "title": "Vim Tipp #3",
-    "section": "",
-    "text": "Asterisk * sucht Wort unter dem Cursor."
-  },
-  {
     "objectID": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
     "href": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
     "title": "Tablet oder Phone als externes Display unter Ubuntu 22 nutzen",
@@ -145,5 +138,12 @@
     "title": "Unter gvim die vorhandenen Schriften anzeigen und auswählen",
     "section": "",
     "text": ":set guifont=*"
+  },
+  {
+    "objectID": "posts/2023-06-01-vim-drei/index.html",
+    "href": "posts/2023-06-01-vim-drei/index.html",
+    "title": "Vim Tipp #3",
+    "section": "",
+    "text": "Asterisk * sucht Wort unter dem Cursor.\n\n1 + 1\na = 100\nb = 5\na * b\n\n500"
   }
 ]
