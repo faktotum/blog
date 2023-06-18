@@ -173,29 +173,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 <p>ack - grep-like text finder</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="ex">-</span> Search for files containing a string or regular expression in the current directory recursively:</span>
-<span id="cb1-2"><a href="#cb1-2"></a>    <span class="ex">ack</span> <span class="st">"search_pattern"</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="ex">-</span> Search for a case-insensitive pattern:</span>
-<span id="cb1-5"><a href="#cb1-5"></a>    <span class="ex">ack</span> <span class="at">--ignore-case</span> <span class="st">"search_pattern"</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="ex">-</span> Search for lines matching a pattern, printing <span class="pp">[</span><span class="ss">o</span><span class="pp">]</span>nly the matched text and not the rest of the line:</span>
-<span id="cb1-8"><a href="#cb1-8"></a>    <span class="ex">ack</span> <span class="at">-o</span> <span class="st">"search_pattern"</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="ex">-</span> Limit search to files of a specific type:</span>
-<span id="cb1-11"><a href="#cb1-11"></a>    <span class="ex">ack</span> <span class="at">--type</span><span class="op">=</span>ruby <span class="st">"search_pattern"</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="ex">-</span> Do not search in files of a specific type:</span>
-<span id="cb1-14"><a href="#cb1-14"></a>    <span class="ex">ack</span> <span class="at">--type</span><span class="op">=</span>noruby <span class="st">"search_pattern"</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="ex">-</span> Count the total number of matches found:</span>
-<span id="cb1-17"><a href="#cb1-17"></a>    <span class="ex">ack</span> <span class="at">--count</span> <span class="at">--no-filename</span> <span class="st">"search_pattern"</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="ex">-</span> Print the file names and the number of matches for each file only:</span>
-<span id="cb1-20"><a href="#cb1-20"></a>    <span class="ex">ack</span> <span class="at">--count</span> <span class="at">--files-with-matches</span> <span class="st">"search_pattern"</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="ex">-</span> List all the values that can be used with <span class="kw">`</span><span class="ex">--type</span><span class="kw">`</span>:</span>
-<span id="cb1-23"><a href="#cb1-23"></a>    <span class="ex">ack</span> <span class="at">--help-types</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Search for files containing a string or regular expression in the current directory recursively:</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="st">"search_pattern"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Search for a case-insensitive pattern:</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--ignore-case</span> <span class="st">"search_pattern"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Search for lines matching a pattern, printing <span class="pp">[</span><span class="ss">o</span><span class="pp">]</span>nly the matched text and not the rest of the line:</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">-o</span> <span class="st">"search_pattern"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Limit search to files of a specific type:</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--type</span><span class="op">=</span>ruby <span class="st">"search_pattern"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Do not search in files of a specific type:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--type</span><span class="op">=</span>noruby <span class="st">"search_pattern"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Count the total number of matches found:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--count</span> <span class="at">--no-filename</span> <span class="st">"search_pattern"</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> Print the file names and the number of matches for each file only:</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--count</span> <span class="at">--files-with-matches</span> <span class="st">"search_pattern"</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ex">-</span> List all the values that can be used with <span class="kw">`</span><span class="ex">--type</span><span class="kw">`</span>:</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="ex">ack</span> <span class="at">--help-types</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><a href="https://beyondgrep.com/documentation">Quelle</a></p>
 
 
