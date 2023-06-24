@@ -8,7 +8,7 @@
 
 <meta name="author" content="faktotum">
 
-<title>NOTIZEN - Manpages in Vim lesen</title>
+<title>NOTIZEN - Fontgrösse in vim zum Drucken ändern</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Manpages in Vim lesen</h1>
+<h1 class="title">Fontgrösse in vim zum Drucken ändern</h1>
   <div class="quarto-categories">
     <div class="quarto-category">vim</div>
   </div>
@@ -138,9 +138,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Manpages können in vim mit <code>:Man foo</code> gelesen werden.</p>
-<p>Dazu folgendes in <code>.vimrc</code> eintragen.</p>
-<pre class="{verbatim}"><code>runtime! ftplugin/man.vim</code></pre>
+<p>Die Fontgrösse kann zum Drucken in vim geändert werden.</p>
+<pre class="{verbatim}"><code>: set printfont=Courier:h9
+:hardcopy</code></pre>
 <p>einfügen.</p>
 
 
