@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2023-06-25-vim-manpages/index.html",
       "/posts/2023-06-17-vim-changes/index.html",
       "/posts/2023-06-17-gvim-fonts/index.html",
       "/posts/2023-06-14-ack/ack.html",

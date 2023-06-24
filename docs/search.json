@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "NOTIZEN",
     "section": "",
-    "text": "Zeige eine Liste mit Änderungen in Vim an\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nUnter gvim die vorhandenen Schriften anzeigen und auswählen\n\n\n\n\n\n\n\nvim\n\n\ngvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nack - grep-like text finder\n\n\n\n\n\n\n\ncli\n\n\n\n\n\n\n\n\n\n\n\n14.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nthttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\npython\n\n\nflask\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden, ohne Neucodierung\n\n\n\n\n\n\n\nffmpeg\n\n\nvideo\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Manpages in Vim lesen\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n25.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZeige eine Liste mit Änderungen in Vim an\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nUnter gvim die vorhandenen Schriften anzeigen und auswählen\n\n\n\n\n\n\n\nvim\n\n\ngvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nack - grep-like text finder\n\n\n\n\n\n\n\ncli\n\n\n\n\n\n\n\n\n\n\n\n14.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nthttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\npython\n\n\nflask\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden, ohne Neucodierung\n\n\n\n\n\n\n\nffmpeg\n\n\nvideo\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -144,6 +144,13 @@
     "href": "posts/2023-06-10-Externes-Display-mit-Wayland/Externes_Display_mit_Wayland.html",
     "title": "Tablet oder Phone als externes Display unter Ubuntu 22 nutzen",
     "section": "",
-    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät muss MS RDP App installiert werden."
+    "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät MS RDP App installieren."
+  },
+  {
+    "objectID": "posts/2023-06-25-vim-manpages/index.html",
+    "href": "posts/2023-06-25-vim-manpages/index.html",
+    "title": "Manpages in Vim lesen",
+    "section": "",
+    "text": "Manpages können in vim mit :Man foo gelesen werden.\nDazu folgenden Eintrag in .vimrc eintragen.\nruntime! ftplugin/man.vim\neinfügen."
   }
 ]
