@@ -126,6 +126,13 @@
     "text": "Liste mit Dateinamen erstellen:\nfile '01.mp4'\nfile '02.mp4'\nfile '03.mp4'\nDann mit\nffmpeg -f concat -i list.txt -c output.mp4\nzusammenfügen."
   },
   {
+    "objectID": "posts/2023-06-25-vim-manpages/index.html",
+    "href": "posts/2023-06-25-vim-manpages/index.html",
+    "title": "Manpages in Vim lesen",
+    "section": "",
+    "text": "Manpages können in vim mit :Man foo gelesen werden.\nDazu folgenden Eintrag in .vimrc eintragen.\nruntime! ftplugin/man.vim\neinfügen."
+  },
+  {
     "objectID": "posts/2023-05-29-vim-eins/vim01.html",
     "href": "posts/2023-05-29-vim-eins/vim01.html",
     "title": "Vim Tipp #1",
@@ -145,12 +152,5 @@
     "title": "Tablet oder Phone als externes Display unter Ubuntu 22 nutzen",
     "section": "",
     "text": "Funktion muss mit\ngsettings set org.gnome.desktop.remote-desktop.rdp screen-share-mode extend\nim Terminal aktiviert werden.\nDann unter Settings/Sharing RDP aktivieren.\nAuf externem Gerät MS RDP App installieren."
-  },
-  {
-    "objectID": "posts/2023-06-25-vim-manpages/index.html",
-    "href": "posts/2023-06-25-vim-manpages/index.html",
-    "title": "Manpages in Vim lesen",
-    "section": "",
-    "text": "Manpages können in vim mit :Man foo gelesen werden.\nDazu folgenden Eintrag in .vimrc eintragen.\nruntime! ftplugin/man.vim\neinfügen."
   }
 ]
