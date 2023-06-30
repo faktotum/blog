@@ -1,0 +1,33 @@
+/* css styles */
+
+code {
+    font-family: DejaVu Sans Mono, monospace;
+  }
+
+h1 {
+    font-family: Droid Sans, Helvetica;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+h2 {
+    font-family: Droid Sans, Helvetica;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+h3 {
+    font-family: Droid Sans, Helvetica;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+p {
+    font-family: Droid Sans, Helvetica;
+    font-weight: normal;
+  }
+
+pre {
+    font-size: .7em;
+    font-weight: normal;
+  }
