@@ -10,3 +10,11 @@ $code-block-bg-alpha: -.1;
 
 $navbar-bg: #7500DB;
 $navbar-fg: #FFF;
+
+@font-face {
+    font-family: 'FiraCode';
+    src: url('./fonts/FiraCode-Medium.woff2') format('woff2');
+}
+
+$font-family-monospace: 'FiraCode';
+
