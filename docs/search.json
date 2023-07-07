@@ -9,7 +9,7 @@
   {
     "objectID": "posts/2023-05-29-vim-eins/vim01.html",
     "href": "posts/2023-05-29-vim-eins/vim01.html",
-    "title": "Vim Tipp #1",
+    "title": "Vim Tipp #1 - Plugins installieren",
     "section": "",
     "text": "Vim Plugins installieren mit:\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nHelpfile erstellen mit:\nvim -u NONE -c \"helptags foo/doc\" -c q"
   },
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "NOTIZEN",
     "section": "",
-    "text": "Fontgrösse in vim zum Drucken ändern\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n25.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nManpages in Vim lesen\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n25.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZeige eine Liste mit Änderungen in Vim an\n\n\n\n\n\n\n\nvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nUnter gvim die vorhandenen Schriften anzeigen und auswählen\n\n\n\n\n\n\n\nvim\n\n\ngvim\n\n\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nack - grep-like text finder\n\n\n\n\n\n\n\ncli\n\n\n\n\n\n\n\n\n\n\n\n14.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nthttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\npython\n\n\nflask\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden, ohne Neucodierung\n\n\n\n\n\n\n\nffmpeg\n\n\nvideo\n\n\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\nzitat\n\n\nmusik\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\nwayland\n\n\nubuntu\n\n\nlinux\n\n\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1\n\n\n\n\n\n\n\ncode\n\n\nvim\n\n\n\n\nVim Plugins installieren\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\nvim\n\n\ncode\n\n\n\n\nVerschiedenes\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Fontgrösse in vim zum Drucken ändern\n\n\n\n\n\n\n\n\n\n25.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nManpages in Vim lesen\n\n\n\n\n\n\n\n\n\n25.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZeige eine Liste mit Änderungen in Vim an\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nUnter gvim die vorhandenen Schriften anzeigen und auswählen\n\n\n\n\n\n\n\n\n\n17.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nack - grep-like text finder\n\n\n\n\n\n\n\n\n\n14.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nthttpd installieren und für CGI, Flask & Python Beispiele nutzen\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVideodateien mit ffmpeg verbinden, ohne Neucodierung\n\n\n\n\n\n\n\n\n\n12.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nZitat #1\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nTablet oder Phone als externes Display unter Ubuntu 22 nutzen\n\n\n\n\n\n\n\n\n\n10.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #3 - Wort unter dem Cursor suchen\n\n\n\n\n\n\n\n\n\n01.06.2023\n\n\n\n\n\n\n  \n\n\n\n\nVim Tipp #1 - Plugins installieren\n\n\n\n\n\n\n\n\n\n29.05.2023\n\n\n\n\n\n\n  \n\n\n\n\nPlayground\n\n\n\n\n\n\n\n\n\n01.01.1979\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "about.html",
@@ -75,6 +75,20 @@
     "title": "Unter gvim die vorhandenen Schriften anzeigen und auswählen",
     "section": "",
     "text": ":set guifont=*"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html",
+    "href": "posts/2023-05-01-playground/playground.html",
+    "title": "Playground",
+    "section": "",
+    "text": "diamonds |&gt;"
+  },
+  {
+    "objectID": "posts/2023-05-01-playground/playground.html#font-awesome",
+    "href": "posts/2023-05-01-playground/playground.html#font-awesome",
+    "title": "Playground",
+    "section": "Font Awesome",
+    "text": "Font Awesome"
   },
   {
     "objectID": "posts/2023-05-01-playground/playground.html#bilder",

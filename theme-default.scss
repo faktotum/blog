@@ -13,8 +13,17 @@ $navbar-fg: #FFF;
 
 @font-face {
     font-family: 'FiraCode';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
     src: url('./fonts/FiraCode-Medium.woff2') format('woff2');
 }
 
 $font-family-monospace: 'FiraCode';
 
+@font-face {
+  font-family: "RobotoMedium";
+  src: url('./fonts/Roboto-Light.ttf') format('ttf');
+}
+
+// $font-family-sans-serif: 'RobotoMedium';
