@@ -163,8 +163,8 @@
   {
     "objectID": "posts/2023-06-01-vim-drei/index.html",
     "href": "posts/2023-06-01-vim-drei/index.html",
-    "title": "Vim Tipp #3",
+    "title": "Vim Tipp #3 - Wort unter dem Cursor suchen",
     "section": "",
-    "text": "Asterisk * sucht Wort unter dem Cursor.\n\n1 + 1\na = 100\nb = 5\na * b\n\n500"
+    "text": "Asterisk * sucht Wort unter dem Cursor."
   }
 ]
