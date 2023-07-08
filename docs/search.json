@@ -77,78 +77,78 @@
     "text": ":set guifont=*"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html",
-    "href": "posts/2023-05-01-playground/playground.html",
+    "objectID": "posts/2023-05-01-playground/index.html",
+    "href": "posts/2023-05-01-playground/index.html",
     "title": "Playground",
     "section": "",
     "text": "diamonds |&gt;"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#font-awesome",
-    "href": "posts/2023-05-01-playground/playground.html#font-awesome",
+    "objectID": "posts/2023-05-01-playground/index.html#font-awesome",
+    "href": "posts/2023-05-01-playground/index.html#font-awesome",
     "title": "Playground",
     "section": "Font Awesome",
     "text": "Font Awesome"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#bilder",
-    "href": "posts/2023-05-01-playground/playground.html#bilder",
+    "objectID": "posts/2023-05-01-playground/index.html#bilder",
+    "href": "posts/2023-05-01-playground/index.html#bilder",
     "title": "Playground",
     "section": "Bilder",
     "text": "Bilder\n\n\n\noskar-schlemmer abstrakte-figur"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#fußnoten-und-inline-notes",
-    "href": "posts/2023-05-01-playground/playground.html#fußnoten-und-inline-notes",
+    "objectID": "posts/2023-05-01-playground/index.html#fußnoten-und-inline-notes",
+    "href": "posts/2023-05-01-playground/index.html#fußnoten-und-inline-notes",
     "title": "Playground",
     "section": "Fußnoten und Inline Notes",
-    "text": "Fußnoten und Inline Notes\nHere is an inline note.1\nI am going to insert a footnote here2."
+    "text": "Fußnoten und Inline Notes\nHere is an inline note.1\nI am going to insert a footnote here2.\nHello world.\n\n1 + 1\n\n2\n\na = 100\nb = 5\nprint(a * b)\n\n500"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#code",
-    "href": "posts/2023-05-01-playground/playground.html#code",
+    "objectID": "posts/2023-05-01-playground/index.html#code",
+    "href": "posts/2023-05-01-playground/index.html#code",
     "title": "Playground",
     "section": "Code",
     "text": "Code\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git\nmkdir -p ~/.vim/pack/plugins/start\ncd ~/.vim/pack/plugins/start\ngit clone https://plugins.io/vim/foo.git"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#tabellen",
-    "href": "posts/2023-05-01-playground/playground.html#tabellen",
+    "objectID": "posts/2023-05-01-playground/index.html#tabellen",
+    "href": "posts/2023-05-01-playground/index.html#tabellen",
     "title": "Playground",
     "section": "Tabellen",
     "text": "Tabellen\n\n\n\nRight\nLeft\nCenter\nDefault\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#liste",
-    "href": "posts/2023-05-01-playground/playground.html#liste",
+    "objectID": "posts/2023-05-01-playground/index.html#liste",
+    "href": "posts/2023-05-01-playground/index.html#liste",
     "title": "Playground",
     "section": "Liste",
     "text": "Liste\n\nfruits\n\napples\n\nmacintosh\nred delicious\n\npears\npeaches\n\nvegetables\n\nbroccoli\nchard oder so.\n\n\nSiehe auch Tabelle.\n\nA paragraph with big text.\n\n\nA paragraph with big text.\n\nThis is text with special formatting."
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#graphviz",
-    "href": "posts/2023-05-01-playground/playground.html#graphviz",
+    "objectID": "posts/2023-05-01-playground/index.html#graphviz",
+    "href": "posts/2023-05-01-playground/index.html#graphviz",
     "title": "Playground",
     "section": "Graphviz",
     "text": "Graphviz\n\n\n\n\n\n\n\nG\n\n  \n\nrun\n\n run   \n\nintr\n\n intr   \n\nrun–intr\n\n   \n\nkernel\n\n kernel   \n\nrun–kernel\n\n   \n\nrunbl\n\n runbl   \n\nintr–runbl\n\n   \n\nrunbl–run\n\n   \n\nzombie\n\n zombie   \n\nkernel–zombie\n\n   \n\nsleep\n\n sleep   \n\nkernel–sleep\n\n   \n\nrunmem\n\n runmem   \n\nkernel–runmem\n\n   \n\nsleep–runmem\n\n   \n\nswap\n\n swap   \n\nsleep–swap\n\n   \n\nrunswap\n\n runswap   \n\nswap–runswap\n\n   \n\nrunswap–runmem\n\n   \n\nnew\n\n new   \n\nrunswap–new\n\n   \n\nnew–runmem"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#margins",
-    "href": "posts/2023-05-01-playground/playground.html#margins",
+    "objectID": "posts/2023-05-01-playground/index.html#margins",
+    "href": "posts/2023-05-01-playground/index.html#margins",
     "title": "Playground",
     "section": "Margins",
     "text": "Margins\n\n\nWe know from the first fundamental theorem of calculus that for \\(x\\) in \\([a, b]\\):\n\\[\\frac{d}{dx}\\left( \\int_{a}^{x} f(u)\\,du\\right)=f(x).\\]"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#leaflet",
-    "href": "posts/2023-05-01-playground/playground.html#leaflet",
+    "objectID": "posts/2023-05-01-playground/index.html#leaflet",
+    "href": "posts/2023-05-01-playground/index.html#leaflet",
     "title": "Playground",
     "section": "Leaflet",
     "text": "Leaflet\n\nlibrary(leaflet)\nleaflet() %&gt;%\n  addTiles() %&gt;%  # Add default OpenStreetMap map tiles\n  addMarkers(lng=8.50047, lat=49.83570, popup=\"The birthplace of Georg Büchner\")\n\n\n\n\n\n49.83570221743721, 8.500473511097601"
   },
   {
-    "objectID": "posts/2023-05-01-playground/playground.html#footnotes",
-    "href": "posts/2023-05-01-playground/playground.html#footnotes",
+    "objectID": "posts/2023-05-01-playground/index.html#footnotes",
+    "href": "posts/2023-05-01-playground/index.html#footnotes",
     "title": "Playground",
     "section": "Fußnoten",
     "text": "Fußnoten\n\n\nInline notes are easier to write, since you don’t have to pick an identifier and move down to type the note.↩︎\nHere is the associated footnote, which will appear at the bottom of my document in a “Footnotes” section.↩︎"
